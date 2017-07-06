@@ -1,10 +1,9 @@
-
 body {
-    background:
-            linear-gradient(135deg, #c1a97a 22px, #7a694b 22px, #7a694b 24px, transparent 24px, transparent 67px, #7a694b 67px, #d9ecff 69px, transparent 69px),
-            linear-gradient(225deg, #c1a97a 22px, #7a694b 22px, #7a694b 24px, transparent 24px, transparent 67px, #7a694b 67px, #d9ecff 69px, transparent 69px)0 64px;
-    background-color:#c1a97a;
-    background-size: 64px 128px
+    background-image: url('../img/Sierra.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 h1, h2, h3, h4, p, aside, button {
