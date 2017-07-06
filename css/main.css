@@ -171,12 +171,24 @@ div#dragme {
     background: rgb(255, 39, 61);
 }
 
+#red-circle:active {
+    background: rgb(205, 31, 46);
+}
+
 #yellow-circle {
     background: rgb(255, 189, 0);
 }
 
+#yellow-circle:active {
+    background: rgb(196, 146, 0);
+}
+
 #green-circle {
     background: rgb(0, 219, 67);
+}
+
+#green-circle:active {
+    background: rgb(0, 164, 49);
 }
 
 #calc-buffer {
