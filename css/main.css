@@ -142,7 +142,6 @@ div#dragme {
     background: rgba(0,0,0,0.66);
     border: 1px solid rgba(0,0,0,0.5);
     border-radius: 4px;
-    z-index: 0;
     box-shadow: 10px 10px 20px black;
 }
 
@@ -212,7 +211,7 @@ div#dragme {
     background: rgb(178, 178, 178);
 }
 
-.calc-button:active {
+.top-button:active {
     background: rgb(169, 169, 169);
 }
 
@@ -220,7 +219,7 @@ div#dragme {
     background: rgb(206, 110, 0);
 }
 
-div#dragme > div.top-button {
+.top-button {
     background: rgb(214, 214, 214);
 }
 
@@ -230,6 +229,15 @@ div#dragme > div.top-button {
 
 .last.row > .calc-button:first-child {
     width: 50%;
+    border-bottom-left-radius: 3px;
+}
+
+.last.row > .calc-button:last-child {
+    border-bottom-right-radius: 3px;
+}
+
+* {
+    cursor: default !important;
 }
 
 /* ==========================================================================
