@@ -133,6 +133,45 @@ p {
     font-weight: 100;
 }
 
+div#dragme {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 233px;
+    height: 321px;
+    background: rgba(0,0,0,0.66);
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 4px;
+    z-index: 0;
+}
+
+.circle {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 5px
+}
+
+.circle:first-child {
+    margin-left: 8px;
+}
+
+#red-circle {
+    background: rgb(255, 39, 61);
+}
+
+#yellow-circle {
+    background: rgb(255, 189, 0);
+}
+
+#green-circle {
+    background: rgb(0, 219, 67);
+}
+
 
 
 
