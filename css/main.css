@@ -199,12 +199,13 @@ div#dragme {
 .row {
     display: flex;
     flex-direction: row;
+    height: 48.5px;
 }
 
 .calc-button {
     width: 25%;
     background: rgb(224, 224, 224);
-    height: 46px;
+    box-sizing: border-box;
 }
 
 .calc-button:active {
@@ -225,36 +226,10 @@ div#dragme > div.top-button {
 
 .operators {
     background: rgb(255, 140, 0);
-    width: 54px;
 }
 
-.first.row {
-    height: 46px;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(142, 142, 142);
-}
-
-.first.row > div {
-    width: 57px;
-    border-right-width: 1px;
-    border-right-color: rgb(142, 142, 142);
-}
-
-.first-row:nth-child(2) {
-    width: 61px;
-    border-right-width: 1px;
-    border-right-color: rgb(142, 142, 142);
-}
-
-.first-row:nth-child(3) {
-    width: 56px;
-    border-right-width: 1px;
-    border-right-color: rgb(142, 142, 142);
-}
-
-.first.row > div.operators {
-    width: 59px;
-    border-right: none;
+.last.row > .calc-button:first-child {
+    width: 50%;
 }
 
 /* ==========================================================================
