@@ -228,6 +228,34 @@ div#dragme > div.top-button {
     width: 54px;
 }
 
+.first.row {
+    height: 46px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(142, 142, 142);
+}
+
+.first.row > div {
+    width: 57px;
+    border-right-width: 1px;
+    border-right-color: rgb(142, 142, 142);
+}
+
+.first-row:nth-child(2) {
+    width: 61px;
+    border-right-width: 1px;
+    border-right-color: rgb(142, 142, 142);
+}
+
+.first-row:nth-child(3) {
+    width: 56px;
+    border-right-width: 1px;
+    border-right-color: rgb(142, 142, 142);
+}
+
+.first.row > div.operators {
+    width: 59px;
+    border-right: none;
+}
 
 /* ==========================================================================
    Helper classes
