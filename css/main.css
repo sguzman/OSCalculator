@@ -138,7 +138,7 @@ div#dragme {
     left: 40%;
     top: 160px;
     width: 233px;
-    height: 321px;
+    height: 322px;
     background: rgba(0,0,0,0.66);
     border: 1px solid rgba(0,0,0,0.5);
     border-radius: 4px;
@@ -199,14 +199,24 @@ div#dragme {
 .row {
     display: flex;
     flex-direction: row;
-    height: 46px;
 }
 
 .calc-button {
     width: 25%;
-    margin: 0;
-    border: 1px rgb(142, 142, 142);
     background: rgb(224, 224, 224);
+    height: 46px;
+}
+
+.calc-button:active {
+    background: rgb(178, 178, 178);
+}
+
+.calc-button:active {
+    background: rgb(169, 169, 169);
+}
+
+.operators:active {
+    background: rgb(206, 110, 0);
 }
 
 div#dragme > div.top-button {
